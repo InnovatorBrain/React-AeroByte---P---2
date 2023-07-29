@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700&family=Poppins:wght@300;400;700&family=Quicksand&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navBar {
+    width: 100%;
+    display: flex;
+    height: 70px;
+    padding: 15px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.logoImage {
+    max-width: 300px;
+}
+
+.nav-title {
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #00b98e;
+    /* font-weight: bold; */
+    margin-left: auto;
+    letter-spacing: 2px;
+    font-size: 18px;
+  }
+
+/* GRID */
+
+.image-grid {
+    display: flex;
+    margin: 85px auto 20px;
+    justify-content: center;
+
+}
+
+#grid-text {
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.image-grid-heading {
+    font-size: 45px;
+    margin-bottom: 15px;
+
+}
+
+.image-grid-text {
+    margin-top: 0;
+    font-size: 30px;
+    font-style: normal;
+    max-width: 700px;
+    opacity: 0.8;
+}
+
+
+/* CARD */
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+
+
+}
+
+.card {
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    flex-basis: 225px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+.card--image {
+    width: 270px;
+    height: 350px;
+    border-radius: 9px;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.gray {
+    opacity: 0.8;
+}
+
+#ratting-fig {
+    color: #00b98e;
+    font-weight: bold;
+}
+
+.card--star {
+    height: 20px;
+}
+
+.card--stats {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.Card--des {
+    font-size: 15px;
+    padding-left: 10px;
+    max-width: 260px;
+}
+
+#des-bold {
+    font-weight: bold;
+    color: #00b98e;
+}
+
+.titleName {
+    font-size: 16px;
+    font-family: 'Poppins' sans-serif;
+    font-weight: bold;
+    color: #00b98e;
+}
