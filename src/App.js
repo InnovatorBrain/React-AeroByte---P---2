@@ -7,10 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import './styles/style.css'
 
-// Images
-// import image1 from './assets/CardsImages/img2.jpg'
-// import image1 from './assets/CardsImages/img2.jpg'
-// import image1 from './assets/CardsImages/img2.jpg'
+import starImage from './assets/CardsImages/star.png'
 
 
 
@@ -25,14 +22,18 @@ import Data from './components/Data';
 function App() {
   const cards = Data.map(item => {
     return <Cards
-      image={item.coverImg}
-      starImage='../assets/CardsImages/star.png'
-      ratting={item.stats.rating}
-      reviews={item.stats.reviewCount}
-      country={item.location}
-      title={item.title}
-      cardDescription={item.description}
-      price={item.price + 50}
+      // WE HAVE TO LINKS OF IMAGES IN DATA AND EACH AND EVERY THING LOADS AUTOMATICALLY FROM DATA
+      // key={item.id}
+      // {...item}
+    image={item.coverImg}
+    starImage={starImage}
+    ratting={item.stats.rating}
+    reviews={item.stats.reviewCount}
+    location={item.location}
+    title={item.title}
+    cardDescription={item.description}
+    price={item.price + 50}
+    openSpots = {item.openSpots}
     />
   })
 

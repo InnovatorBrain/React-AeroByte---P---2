@@ -26,8 +26,8 @@ export default [
             rating: 4.9,
             reviewCount: 20
         },
-        location: "San Francisco",
-        openSpots: 8,
+        location: "California",
+        openSpots: 0,
     }
     ,
     {
@@ -54,7 +54,7 @@ export default [
             rating: 4.8,
             reviewCount: 25
         },
-        location: "Chicago",
-        openSpots: 5,
+        location: "Online",
+        openSpots: 7,
     }
 ]
